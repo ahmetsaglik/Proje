@@ -1,0 +1,63 @@
+{"yemekler": [
+        {"tag": "Patates Oturtma",
+         "patterns": ["Patates zeytinyağı tereyağ kıyma soğan sarımsak sivri biber domates"],
+         "responses": ["Bu akşam güzel bir Patates Oturtma yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Tavuk kapama",
+         "patterns": ["Tavuk baget defne yaprağı soğan pirinç yoğurt"],
+         "responses": ["Bu akşam güzel bir Tavuk Kapama yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Ali Nazik",
+         "patterns": ["sarımsak kuşbaşı et tereyağı biber salçası patlıcan yoğurt"],
+         "responses": ["Bu akşam güzel bir Ali Nazik yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Tepsi böreği",
+         "patterns": ["yufka beyaz peynir sıvı yağ süt yoğurt yumurta maden suyu"],
+         "responses": ["Bu akşam güzel bir Tepsi böreği yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Sodalı Börek",
+         "patterns": ["yufka yumurta süt yoğurt sıvı yağ maden suyu beyaz peynir maydanoz"],
+         "responses": ["Bu akşam güzel bir Sodalı Börek yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Tavada Kırpık Böreği",
+         "patterns": ["yumurta süt lor peyniri maydanoz yufka zeytinyağı"],
+         "responses": ["Bu akşam güzel bir Tavada Kırpık Böreği yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Tavada Yalancı Su Böreği",
+         "patterns": [" yufka peynir tereyağı süt sıvı yağ yoğurt"],
+         "responses": ["Bu akşam güzel bir Tavada Yalancı Su Böreği yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Çi Börek",
+         "patterns": [" kıyma soğan karabiber sıvı yağ"],
+         "responses": ["Bu akşam güzel bir Çi Börek yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Belen Tava",
+         "patterns": ["kuşbaşı dana eti patates patlıcan domates soğan kapya biberi sarımsak domates salçası"],
+         "responses": ["Bu akşam güzel bir Belen Tava yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Buğu Kebabı",
+         "patterns": ["Dana kuşbaşı et arpacık soğan kapya biberi patates havuç bezelye sarımsak"],
+         "responses": ["Bu akşam güzel bir Buğu Kebabı yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Elbasan Tava",
+         "patterns": ["tereyağ sıvı yağ tuz yoğurt yumurta un sarımsak reyhan"],
+         "responses": ["Bu akşam güzel bir Elbasan Tava yapabilirsin."],
+         "context_set": ""
+        },
+        {"tag": "Simit Kebabı",
+         "patterns": ["ince bulgur dana kıyma nane sarımsak"],
+         "responses": ["Bu akşam güzel bir Simit Kebabı yapabilirsin."],
+         "context_set": ""
+        }
+   ]
+}

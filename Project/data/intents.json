@@ -1,0 +1,103 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhaba", "Beni duyabiliyor musun?", "İyi günler"],
+         "responses": ["Merhaba!", "Seni görmek güzel!", "Merhaba, Nasıl yardımcı olabilirim?"],
+         "context_set": ""
+        },
+        {"tag": "elveda",
+         "patterns": ["Görüşürüz", "Sonra görüşürüz", "Kendine iyi bak", "Ben çıkıyorum", "Kapatıyorum"],
+         "responses": ["Güle Güle", "Daha sonra konuşuruz", "Görüşürüz!"],
+         "context_set": ""
+        },
+        {"tag": "yaş",
+         "patterns": ["Kaç yaşındasın?", "Bot kaç yaşında?", "Senin yaşın kaç?", "yaş?", "yaşını söyler misin?"],
+         "responses": ["23 yaşındayım!", "Bir botun yaşı olur mu"],
+         "context_set": ""
+        },
+        {"tag": "isim",
+         "patterns": ["adın ne?", "ismin ne?", "ismini söyler misin?","adını söyler misin?"],
+         "responses": ["ben BOT.", "benim adım Bot", "ismim bot.","bana Bot diyebilirsin."],
+         "context_set": ""
+        },
+        {"tag": "nasılsın",
+         "patterns": ["Nasılsın?", "İyi misin?", "İşler nasıl?"],
+         "responses": ["Teşekkür ederim.", "Çok iyiyim her zamanki gibi.","Teşekkürler, peki ya sen"],
+         "context_set": ""
+        },
+        {"tag": "naber",
+         "patterns": ["Naber?", "Ne yapıyorsun?", "Ne ile uğraşıyorsun?"],
+         "responses": ["İşlemci ile RAM arasında geziniyorum.", "Gelecek hakkında düşünüyorum.","Bilmiyormuş gibi yapma."],
+         "context_set": ""
+        },
+        {"tag": "saat",
+         "patterns": ["Saat kaç?", "Saati söyler misin?", "Saati söyle?"],
+         "responses": ["Tamamdır."],
+         "context_set": ""
+        },
+        {"tag": "arama",
+         "patterns": ["Webde ara", "İnternetten arama yap", "Webden arama yap"],
+         "responses": ["Peki. Ne aramak istersin?"],
+         "context_set": ""
+        },
+        {"tag": "fıkra",
+         "patterns": ["Bir fıkra anlat", "Fıkra anlatır mısın?", "Fıkra bilir misin?"],
+         "responses": ["Ben fıkra bilmem ki.", "Fıkra mı? O da ne?", "ıı bilmiyorum.", "Küçük çocuk, keman dersi için evde prova yapıyor, babası da oturmuş gazete okuyordu. Evin köpeği de çocuğun kemanından çıkan melodilere havlayarak eşlik ediyordu. Bu seslere dayanamayan baba oğlum köpeğin bilmediği bişey çalsana dedi. Nasıl komik mi?"],
+         "context_set": ""
+        },
+        {"tag": "notAl",
+         "patterns": ["Benim için not al.", "Not al", "Not alır mısın?","Not almanı istiyorum.","Not alabilir misin?"],
+         "responses": ["Tabi ki. Notuna bir başlık vermelisin.", "Notunun başlığı ne olacak."],
+         "context_set": ""
+        },
+        {"tag": "notGöster",
+         "patterns": ["Notumu oku.", "Notumu okur musun?", "Not oku.","not aramak istiyorum","Not sorgula", "Not göster."],
+         "responses": ["Tarihe göre mi yoksa başlığa göre mi görmek istersin?"],
+         "context_set": ""
+        },
+        {"tag": "notSil",
+         "patterns": ["Notumu sil.", "Notumu siler misin?", "Not sil.", "Notlarımdan birini sil."],
+         "responses": ["Tarihe göre mi yoksa başlığa göre mi silmek istersin?"],
+         "context_set": ""
+        },
+        {"tag": "notlarıSil",
+         "patterns": ["Notlarımı sil.", "Notlarımı siler misin?", "NotLarın hepsini sil.", "Bütün notları sil.", "Notlarımı boşalt."],
+         "responses": ["Tamamdır. Hemen ilgeleniyorum."],
+         "context_set": ""
+        },
+        {"tag": "yemekOner",
+         "patterns": ["Bugün ne yemek hazırlasam?", "Yemek önerir misin?", "Yemek konusunda kararsızım.", "Sence ne yemek yapmalıyım?", "Ne yemek yapmamı önerirsin?", "Yemek öner.", "Yemek önerir misin?", "Bana yemek öner."],
+         "responses": ["Elindeki malzemeleri söylersen belki bir yemek önerebilirim"],
+         "context_set": ""
+        },
+        {"tag": "filmOner",
+         "patterns": ["Hangi filmi izleyeceğime karar veremedim?", "Film önerir misin?", "Film izlemek istiyorum.", "Film öner.", "Bana film öner."],
+         "responses": ["Sevdiğin bir filmi söylersen belki fikir yürütebilirim."],
+         "context_set": ""
+        },
+        {"tag": "nobetciEczane",
+         "patterns": ["Nöbetçi eczane ara.", "Nöbetçi eczane bul", "Nöbetçi eczane bulmam gerekiyor.", "Nöbetçi eczaneler hangileri", "Hangi eczaneler nöbetçi"],
+         "responses": ["Kontrol ediyorum."],
+         "context_set": ""
+        },
+        {"tag": "havaDurumu",
+         "patterns": ["Hava durumunu söyle.", "Hava nasıl", "Hava Durumu hakkında bilgi ver.", "Hava durumunu söyler misin?", "Hava durumu nasıl olacak?"],
+         "responses": ["Kontrol ediyorum."],
+         "context_set": ""
+        },
+        {"tag": "starwars",
+         "patterns": ["star wars izledin mi", "sence star wars nasıl", "star wars sever misin", "star wars iyi mi", "star wars"],
+         "responses": ["Tabi ki. Güç seninle olsun."],
+         "context_set": ""
+        },
+        {"tag": "shining",
+         "patterns": ["shining izledin mi", "sence shining nasıl", "shining sever misin", "shining iyi mi", "shining"],
+         "responses": ["Tabiki"],
+         "context_set": ""
+        },
+        {"tag": "pulpfiction",
+         "patterns":["ucuz romanı izledin mi", "sence ucuz roman nasıl", "ucuz roman sever misin", "ucuz roman iyi mi", "ucuz roman","ucuz","roman"],
+         "responses": ["Müziği hala ezberimde"],
+         "context_set": ""
+        }
+ ]
+}

@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\PROGRAMLAMA\\bitirmeV2\\Engine\\data\\chatbotModel.tflearn"
+all_model_checkpoint_paths: "D:\\PROGRAMLAMA\\bitirmeV2\\Engine\\data\\chatbotModel.tflearn"
